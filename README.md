@@ -84,7 +84,7 @@ A burst operation is defined as one or more data transactions, initiated by a bu
 
 ## Implementation
 ### Objective
-To design and simulate a synthesizable AHB to APB bridge interface using Verilog and run single read and single write tests using AHB Master and APB Slave testbenches. The bridge unit converts system bus transfers into APB transfers and performs the following functions:
+To design and simulate a synthesizable AHB to APB bridge interface using Verilog and run single read, burst read, single write and burst write tests using AHB Master and APB Slave testbenches. The AHB to APB bridge unit converts system bus transfers into APB transfers and performs the following functions:
 
 * Latches the address and holds it valid throughout the transfer.
 * Decodes the address and generates a peripheral select, PSELx. Only one select signal can be active during a transfer.
