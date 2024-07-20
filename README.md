@@ -1,3 +1,14 @@
+# FILES
+## You may use the files that I have attached here with the repo.
+* AHB slave interface : AHB_slave_itfc.v
+* APB Controller : APB_Controller.v
+* Bridge top module : AHB_to_APB_top.v
+## Additional files used for top level Testbench
+* AHB_master.v
+* APB_slave.v
+
+You may contact me for further assistance. Details at the end.
+
 # AHB-to-APB-bridge
 
 ## About the AMBA Buses
@@ -82,9 +93,6 @@ An AHB bus slave responds to transfers initiated by bus masters within the syste
 
 ### APB Controller
 The AHB to APB bridge comprises a state machine, which is used to control the generation of the APB and AHB output signals, and the address decoding logic which is used to generate the APB peripheral select lines.
-
-# FILES
-You can use the files that I have attached here with the repo.
 
 # CONTACT
 You may approach me for further assistance through :
