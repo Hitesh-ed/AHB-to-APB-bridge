@@ -35,6 +35,7 @@ The AMBA ASB is for high-performance system modules. AMBA ASB is an alternative 
 The AMBA APB is for low-power peripherals. AMBA APB is optimized for minimal power consumption and reduced interface complexity to support peripheral functions. APB can be used in conjunction with either version of the system bus.
 
 The overall architecture looks like the following:
+
 ![image](https://github.com/user-attachments/assets/2d58a090-392f-4be7-9a94-9c716b50f856)
 
 ## AMBA System
@@ -100,6 +101,15 @@ An AHB bus slave responds to transfers initiated by bus masters within the syste
 
 ### APB Controller
 The AHB to APB bridge comprises a state machine, which is used to control the generation of the APB and AHB output signals, and the address decoding logic which is used to generate the APB peripheral select lines.
+
+## Bridge Module
+The AHB Slave Interface and APB Controller are interfaced together to build the AHB to APB bridge Module
+
+![AHB to APB Bridge](https://github.com/user-attachments/assets/ff21653d-219c-479d-ae93-c9248dcffb95)
+
+
+## Synthesis using Quartus Prime 
+![AHB to APB Bridge Synthesis](https://github.com/user-attachments/assets/093aeeef-eb1c-4bff-ab11-a98c1541257f)
 
 # CONTACT
 You may approach me for further assistance through :
