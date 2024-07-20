@@ -1,5 +1,7 @@
 # FILES
-## You may use the files that I have attached here with the repo.
+## You may use the files that I have attached here with the repo
+All the files are written in verilog.
+
 * AHB slave interface : AHB_slave_itfc.v
 * APB Controller : APB_Controller.v
 * Bridge top module : AHB_to_APB_top.v
