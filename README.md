@@ -6,6 +6,11 @@
 ## Additional files used for top level Testbench
 * AHB_master.v
 * APB_slave.v
+### Operations tested
+* single write
+* burst write
+* single read
+* burst read
 
 You may contact me for further assistance. Details at the end.
 
