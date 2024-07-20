@@ -15,6 +15,8 @@
 You may contact me for further assistance. Details at the end.
 
 # AHB-to-APB-bridge
+## Overview
+The AHB to APB bridge is a critical component within system-on-chip (SoC) designs, facilitating seamless integration of high-performance AHB bus components with lower-speed peripherals connected via the APB bus. The AHB to APB bridge acts as a translator between the Advanced High-performance Bus (AHB) and the Advanced Peripheral Bus (APB), enabling efficient communication and synchronization between different clock domains. This AHB to APB bridge manages protocol translation, arbitration, and address decoding, optimizing system performance and functionality in ARM-based architectures and microcontroller SoCs. Overall, the AHB to APB bridge ensures smooth interaction between fast AHB bus components and slower APB peripherals, enhancing the efficiency and capability of complex embedded systems.
 
 ## About the AMBA Buses
 The Advanced Microcontroller Bus Architecture (AMBA) specification defines an on-chip communications standard for designing high-performance embedded microcontrollers. Three distinct buses are defined within the AMBA specification:
